@@ -15,5 +15,12 @@
         "psr-4": {
             "Wanka\\Contact\\": "src/"
         }
-    }
+    },
+    "extra": {
+	    "laravel": {
+	        "providers": [
+	            "Wanka\\Contact\\ContactServiceProvider"
+	        ]
+	    }
+	}
 }
