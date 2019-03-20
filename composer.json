@@ -1,0 +1,19 @@
+{
+    "name": "wanka/contact",
+    "description": "This will send email to admin save contact query in database",
+    "type": "library",
+    "license": "MIT",
+        "authors": [
+        {
+            "name": "Ahmad Ilham",
+            "email": "llham.ahmad14@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wanka\\Contact\\": "src/"
+        }
+    }
+}
